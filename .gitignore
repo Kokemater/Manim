@@ -1,8 +1,11 @@
 # Ignorar todo
-**/**
+*
 
-# Pero no ignorar archivos .py
-!**/**/.py
+# No ignorar archivos .py en cualquier subdirectorio
+!**/*.py
+
+# No ignorar carpetas (necesario para poder incluir archivos .py dentro de carpetas)
+!*/
 
 # No ignorar el archivo .gitignore
 !.gitignore
