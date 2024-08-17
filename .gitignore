@@ -2,7 +2,7 @@
 **/**
 
 # Pero no ignorar archivos .py
-!*.py
+!**/**/.py
 
 # No ignorar el archivo .gitignore
 !.gitignore
