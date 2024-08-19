@@ -63,31 +63,6 @@ class playing_with_vectors(Scene):
         self.play(GrowFromPoint(v4, point= v4.get_start()), Write(v4_text))
         self.wait(2)
 
-class Gram_Schmidt(VectorScene):
-    def construct(self):
-        plane = NumberPlane(x_range=[-5,5,1], y_range=[-5,5,1], x_length=6, y_length=6).add_coordinates().scale(0.8)
-        self.play(Create(plane))
-
-        v1 = self.add_vector([1,1],color=BLUE)
-        v2 = self.add_vector([2,1], color = RED)
-        self.play(FadeOut(v1), run_time = 0.8)
-        v1 = self.add_vector([1/sqrt(2),1/sqrt(2)],color=BLUE)
-        self.wait(1)
-        line = Line(start = v1.get_end(), end = v2.get_end()).add_tip()
-        self.play(Create(line))
-        self.play(FadeOut(v2), run_time = 0.8)
-        v2 = self.add_vector([1/2, -1/2], color = RED)
-        self.play(FadeOut(v2), run_time = 0.8)
-        v2 = self.add_vector([1/sqrt(2), -1/sqrt(2)], color = RED)
-
-
-        self.wait(1)
-
-
-
-        
-
-
 
 
 
