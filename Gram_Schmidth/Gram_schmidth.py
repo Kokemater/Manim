@@ -8,12 +8,25 @@ class GramSchmidtProcess(VectorScene):
         return vector_tex
 
     def normalize(self, vector):
-        # Normalize the vector
+        # Normalize the vector and display the normalization formula
         norm = np.linalg.norm(vector)
-        return vector / norm
+        normalized_vector = vector / norm
+        normalization_tex = MathTex(
+            r"\vec{u_1} = \frac{\begin{pmatrix} %d \\ %d \end{pmatrix}}{\sqrt{%d^2 + %d^2}}" % (
+                vector[0], vector[1], vector[0], vector[1]
+            )
+        )
+        normalization_tex.to_corner(UR)
+        self.play(Write(normalization_tex))
+        return normalized_vector
 
     def projection(self, v, u):
-        # Projection of vector v onto vector u
+        # Projection of vector v onto vector u and display the projection formula
+        projection_tex = MathTex(
+            r"\text{proj}_{\vec{u_1}} \vec{w_2} = \frac{\vec{w_2} \cdot \vec{u_1}}{\vec{u_1} \cdot \vec{u_1}} \vec{u_1}"
+        )
+        projection_tex.to_corner(UR)
+        self.play(Write(projection_tex))
         return np.dot(v, u) / np.dot(u, u) * u
 
     def construct(self):
@@ -52,7 +65,7 @@ class GramSchmidtProcess(VectorScene):
 
         # Normalize the orthogonal vector
         orthogonal_v2_normalized = self.normalize(orthogonal_v2)
-        vec_orthogonal_v2_normalized = self.add_vector(orthogonal_v2_normalized, color=GREEN)
+        vec_orthogonal_v2_normalized = self.add_vector(orthogonal_v2_normalized, color=RED_B)
         self.play(Transform(vec_orthogonal_v2, vec_orthogonal_v2_normalized))
 
         self.wait(2)
