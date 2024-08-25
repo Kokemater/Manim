@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/sorting_algorythms/media/videos/bubble_sort/480p15/partial_movie_files/ShowCode/1185818338_1439905817_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/sorting_algorythms/media/videos/bubble_sort/480p15/partial_movie_files/ShowCode/624642324_1141282389_3614968476.mp4'

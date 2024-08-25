@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/2902699114_3062075169_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_1076466279_1022210057.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_4263321942_4067550568.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_1076466279_454439584.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_3142999210_890815981.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_1076466279_2582622224.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_2909776070_2331024463.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/new/1080p60/partial_movie_files/SimpleAnimation/3931933789_1076466279_590916581.mp4'

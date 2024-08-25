@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/1185818338_357237150_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_2321163034_206102726.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_335827543_2584554197.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_1783934781_3828524403.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_4022215019_3119211602.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_1130290254_1650986018.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_2081538068_501054496.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/error/480p15/partial_movie_files/ErrorScene/624642324_1141282389_1778947359.mp4'

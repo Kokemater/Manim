@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/linear_fit/480p15/partial_movie_files/LinearFit/4266129954_1108316816_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/linear_fit/480p15/partial_movie_files/LinearFit/1442284246_2677343005_374872592.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/linear_fit/480p15/partial_movie_files/LinearFit/1442284246_2067914776_3343965933.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/linear_fit/480p15/partial_movie_files/LinearFit/1442284246_3339492146_2256636150.mp4'
+file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/media/videos/linear_fit/480p15/partial_movie_files/LinearFit/1442284246_693451468_504493202.mp4'

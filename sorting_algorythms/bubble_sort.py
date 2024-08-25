@@ -52,7 +52,6 @@ class BubbleSort(Scene):
         # Show the final sorted array
         self.wait(1)
 
-from manim import *
 
 class ShowCode(Scene):
     def construct(self):
@@ -93,4 +92,6 @@ int main(void)
         # Añadir el bloque de código a la escena
         self.play(Write(code))
         self.wait(2)
+
+
 
