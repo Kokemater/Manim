@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/ShowGradient/1185818338_59508804_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/ShowGradient/624642324_3636024140_3130493441.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/ShowGradient/624642324_2990531164_1807155305.mp4'

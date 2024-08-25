@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/1185818338_2896774655_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_2284857943_1584216550.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_323189876_4126179915.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_3453105605_3603904201.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_379061864_1580543149.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_3890345977_2576991983.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_2961972794_3014897995.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_2721857154_1589677754.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_1759892968_1362778463.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_36191483_2835458553.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_626639693_1362778463.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/Gram_Schmidth/media/videos/Gram_schmidth/480p15/partial_movie_files/Gram_Schmidt/624642324_3890345977_3252482985.mp4'
