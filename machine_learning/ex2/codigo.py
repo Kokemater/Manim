@@ -6,7 +6,7 @@ def sigmoid(x):
 
 # Derivada de la función sigmoide (para el cálculo del gradiente)
 def sigmoid_derivada(x):
-    return x * (1 - x)
+    return sigmoid(x) * (1 - sigmoid(x))
 
 # Datos de entrada (4 ejemplos, 3 características cada uno)
 X = np.array([[1, 0, 0],
@@ -33,10 +33,10 @@ y = np.array([[0],
 np.random.seed(42)
 
 # Inicialización de los pesos y bias (valores aleatorios pequeños)
-W1 = np.random.rand(3, 4) - 0.5
-b1 = np.random.rand(1, 4) - 0.5
+W1 = np.random.rand(3, 2) - 0.5
+b1 = np.random.rand(1, 2) - 0.5
 
-W2 = np.random.rand(4, 4) - 0.5
+W2 = np.random.rand(2, 4) - 0.5
 b2 = np.random.rand(1, 4) - 0.5
 
 W3 = np.random.rand(4, 1) - 0.5
@@ -49,18 +49,23 @@ learning_rate = 0.1
 # Entrenamiento de la red
 for epoch in range(epochs):
     # Propagación hacia adelante
-    A1 = sigmoid(np.dot(X, W1) + b1)
-    A2 = sigmoid(np.dot(A1, W2) + b2)
-    A3 = sigmoid(np.dot(A2, W3) + b3)
+    Z1 = np.dot(X, W1) + b1
+    A1 = sigmoid(Z1)
+
+    Z2 = np.dot(A1, W2) + b2
+    A2 = sigmoid(Z2)
+
+    Z3 = np.dot(A2, W3) + b3
+    A3 = sigmoid(Z3)
     
     # Cálculo del error utilizando MSE
     mse = np.mean(np.square(y - A3))
     # Backpropagation utilizando el gradiente del MSE
-    error_A3 = -1*(y - A3)
     
-    delta_A3 = error_A3 * sigmoid_derivada(A3)
-    delta_A2 = delta_A3.dot(W3.T) * sigmoid_derivada(A2)
-    delta_A1 = delta_A2.dot(W2.T) * sigmoid_derivada(A1)
+    delta_A3 = -1*(y - A3) * sigmoid_derivada(Z3)
+    delta_A2 = delta_A3.dot(W3.T) * sigmoid_derivada(Z2)
+    delta_A1 = delta_A2.dot(W2.T) * sigmoid_derivada(Z1)
+
     
     # Actualización de los pesos y bias
     W3 -= A2.T.dot(delta_A3) * learning_rate
