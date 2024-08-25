@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/Abstract/1185818338_1701868420_223132457.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/Abstract/624642324_2135277798_2189440451.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/Abstract/624642324_1141282389_1468920424.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/Abstract/624642324_764652765_829657734.mp4'
+file 'file:C:/Users/maris/OneDrive/Documentos/programacion_verano/Manim_git/machine_learning/ex1/media/videos/manim_easy_pred/480p15/partial_movie_files/Abstract/624642324_510360322_829657734.mp4'
