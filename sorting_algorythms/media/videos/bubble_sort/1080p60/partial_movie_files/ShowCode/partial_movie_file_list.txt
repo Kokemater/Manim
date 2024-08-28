@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/sorting_algorythms/media/videos/bubble_sort/1080p60/partial_movie_files/ShowCode/3529212410_855191692_223132457.mp4'
-file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/sorting_algorythms/media/videos/bubble_sort/1080p60/partial_movie_files/ShowCode/3040924799_1141282389_175117438.mp4'

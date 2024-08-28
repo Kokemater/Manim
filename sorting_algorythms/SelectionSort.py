@@ -18,6 +18,8 @@ class SelectionSort(Scene):
     def update_arrows(self, i_arrow, j_arrow, labels, i, j):
         i_arrow.become(Arrow(start=labels[i].get_top() + UP, end=labels[i].get_top()).set_color(GREEN))
         j_arrow.become(Arrow(start=labels[j].get_top() + UP, end=labels[j].get_top()).set_color(RED))
+        self.add_sound("sounds_folder/next.mp3")
+
 
     def selection_sort(self, labels):
         n = len(labels)
@@ -41,34 +43,40 @@ class SelectionSort(Scene):
             for j in range(i + 1, n):
                 # Actualizar textos y flechas
                 self.update_text(text, i, j, min_index, i_text, j_text, min_index_text, labels)
+
                 self.update_arrows(i_arrow, j_arrow, labels, i, j)
                 self.wait(0.5)
                 ask_0 = Text(f"{int(labels[j][1].text)} < {int(labels[min_index][1].text)}")
                 ask_1 = Text("????").next_to(ask_0)
                 ask = VGroup(ask_0, ask_1).move_to(ORIGIN).to_edge(DOWN)
-                self.play(Wiggle(min_index_text[3]))
-                self.play(Write(ask))
-
+                self.play(Write(ask), runtime=0.4)
+                self.pause(0.2)
                 if int(labels[min_index][1].text) > int(labels[j][1].text):
                     ask.set_color(GREEN)
                     min_index = j
+                    self.add_sound("sounds_folder/correct.mp3")
+
                     self.play(labels[min_index].animate.set_color(RED),
-                              labels[j].animate.set_color(RED))
+                              labels[j].animate.set_color(RED), runtime=0.5)
                     self.play(labels[min_index].animate.set_color(BLUE),
-                              labels[j].animate.set_color(BLUE))
-                else:
+                              labels[j].animate.set_color(BLUE), runtime=0.5)
+                else:            
                     ask.set_color(RED)
+                    self.add_sound("sounds_folder/error.mp3")
                 
-                self.play(Unwrite(ask))
+                self.play(Unwrite(ask), runtime= 0.2)
                     
                     
 
             # Intercambiar elementos visualmente
             if min_index != i:
+                self.add_sound("sounds_folder/swap.mp3")
+
                 self.play(
                     labels[min_index].animate.move_to(labels[i].get_center()),
-                    labels[i].animate.move_to(labels[min_index].get_center())
+                    labels[i].animate.move_to(labels[min_index].get_center()), runtime = 1.4
                 )
+
                 labels[min_index], labels[i] = labels[i], labels[min_index]
             self.wait(0.5)
 

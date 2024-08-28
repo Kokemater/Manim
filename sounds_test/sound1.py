@@ -5,7 +5,7 @@ class SoundExample(Scene):
         text = Text("Hello, Manim!").scale(1.5)
         self.play(Write(text))
         
-        # Añadir un sonido en el segundo 0
-        self.add_sound("sounds/correct.mp3", time_offset=0)
+        # Add a sound at the start
+        self.add_sound("swap.mp3", time_offset=0)
         
         self.wait(2)
