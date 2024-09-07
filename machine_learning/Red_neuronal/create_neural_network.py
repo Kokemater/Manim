@@ -25,14 +25,17 @@ class Layer(VGroup):
 class Connection(VGroup):
     def __init__(self, layer1, layer2):
         super().__init__()
+        lines = []
         # Crear conexiones entre dos capas
         for prev_neuron in layer1.nodes:
             for next_neuron in layer2.nodes:
                 line = Line(prev_neuron.get_center(), next_neuron.get_center(), stroke_width=1)
+                lines.append(line)
                 self.add(line)
+                
     def focus(self,index):
         line = self.lines[index]
-        return Succession(Indicate(node, scale_factor= 3))
+        return Succession(Indicate(line, scale_factor= 3))
 
 class NeuralNetworkScene(Scene):
     def create_layers(self, sizes):
@@ -57,11 +60,10 @@ class nn_example1(NeuralNetworkScene):
     def construct(self):
         layers = self.create_layers([3, 10, 5, 2])  # Crear las capas
         connections = self.create_connections(layers)  # Crear las conexiones
-        self.add(layers)  # Añadir las capas a la escena
+        self.add(layers, connections)  # Añadir las capas a la escena
 
         # Hacer brillar el primer nodo en la primera capa
         shine_animation = layers[0].focus(index=0)
         if shine_animation:
             self.play(shine_animation)
         self.wait()
-

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.12)  21 AUG 2024 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.16)  7 SEP 2024 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,13 +401,19 @@ on}")[]
  []
 
 [6] (easy_prediction.aux)
-Package rerunfilecheck Info: File `easy_prediction.out' has not changed.
-(rerunfilecheck)             Checksum: 2C54DD4697A63DA509ECCF4BB5B6D7A6;511.
+
+Package rerunfilecheck Warning: File `easy_prediction.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `easy_prediction.out':
+(rerunfilecheck)             Before: 2377B4100E9C530514A3E4715EB83166;516
+(rerunfilecheck)             After:  2C54DD4697A63DA509ECCF4BB5B6D7A6;511.
  ) 
 Here is how much of TeX's memory you used:
  9750 strings out of 476331
- 152473 string characters out of 5787765
- 1865660 words of memory out of 5000000
+ 152469 string characters out of 5787765
+ 1864660 words of memory out of 5000000
  30043 multiletter control sequences out of 15000+600000
  529896 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -432,9 +438,9 @@ ublic/amsfonts/cm/cmr10.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maris/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maris/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on easy_prediction.pdf (6 pages, 169765 bytes).
+Output written on easy_prediction.pdf (6 pages, 170596 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
+ 334 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
