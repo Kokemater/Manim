@@ -67,7 +67,6 @@ class SelectionSort(Scene):
                 self.play(Unwrite(ask), runtime= 0.2)
                     
                     
-
             # Intercambiar elementos visualmente
             if min_index != i:
                 self.add_sound("sounds_folder/swap.mp3")
