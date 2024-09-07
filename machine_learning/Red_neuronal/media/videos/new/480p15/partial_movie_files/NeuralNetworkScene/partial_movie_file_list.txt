@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/maris/OneDrive/Escritorio/Programacion verano/yt/manim/machine_learning/Red_neuronal/media/videos/new/480p15/partial_movie_files/NeuralNetworkScene/1185818338_123554531_2060486491.mp4'
